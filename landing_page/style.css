@@ -1,0 +1,147 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header and Navigation */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    transition: background 0.3s;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #333;
+    border-radius: 4px;
+}
+
+
+/* Section Styles */
+section {
+    height: 100vh;
+    padding: 80px 20px;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+    width:100%;
+}
+.para{
+    width: 55%;
+    float: left;
+    margin: 40px;
+    font-size: large;
+    text-align: justify;
+}
+.para2{
+    margin-left:100px;
+    margin-right: 100px;
+    text-align: justify;
+    
+}
+
+.serv-img{
+    float: left;
+    margin-left: 0 auto;
+    margin: 0 300px;
+}
+.inside-img{
+    height: 250px;
+    width: 250px;
+    margin: 40px 20px;
+    
+}
+
+#home {
+    background-color: #1abc9c;
+    color: white;
+    font-size: larger;
+}
+
+#about {
+    background-color: #3498db;
+    color: white;
+}
+
+#services {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#contact {
+    background-color: #9b59b6;
+    color: white;
+}
+
+
+
+    /* Style for the form container */
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    /* Style for labels */
+    label {
+        font-weight: bold;
+    }
+
+    /* Style for input fields */
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    /* Style for submit button */
+    input[type="submit"] {
+        background-color: #0074D9;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    /* Hover effect for submit button */
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+
+
+
+
